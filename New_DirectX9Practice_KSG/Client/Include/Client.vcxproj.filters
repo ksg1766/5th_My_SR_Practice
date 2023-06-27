@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{54072560-0ca5-4dc0-8256-18cb96e858e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc">
+      <UniqueIdentifier>{2ad4fe67-d505-4a9a-94a4-e1f6784bdc9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{daf89680-9697-4e5e-bd4e-7436051cfbbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo">
+      <UniqueIdentifier>{06dc1b76-8beb-4d64-8e1c-41231208a3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. Stage">
+      <UniqueIdentifier>{4a6f84dc-73b6-43fb-80a1-6b14c92a3ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{9c45403b-7aaa-4a2a-b325-b8d24758c2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. BackGround">
+      <UniqueIdentifier>{82461e52-4280-4c90-94fb-6fb6e85c9d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Player">
+      <UniqueIdentifier>{20823db4-7296-49fd-9b7e-f63ac149528c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\02. Monster">
+      <UniqueIdentifier>{acc0d059-900d-4485-8f0e-b7cd0bbc5293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03. Camera">
+      <UniqueIdentifier>{a335f021-b361-4f08-8992-6f047bf80c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03. Camera\00. MainCamera">
+      <UniqueIdentifier>{05793867-4357-4a96-be55-5a5beb3c26e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03. Camera\01. MiniCamera">
+      <UniqueIdentifier>{da05091a-6b79-4e74-ba61-c9a41a812c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\04. Terrain">
+      <UniqueIdentifier>{e654a71e-2993-4788-8fdb-4f5ff7e6f402}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Logo.h">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Player.h">
+      <Filter>02. GameObject\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Monster.h">
+      <Filter>02. GameObject\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BackGround.h">
+      <Filter>02. GameObject\00. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Camera.h">
+      <Filter>02. GameObject\03. Camera\00. MainCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Terrain.h">
+      <Filter>02. GameObject\04. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MiniCamera.h">
+      <Filter>02. GameObject\03. Camera\01. MiniCamera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Logo.cpp">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackGround.cpp">
+      <Filter>02. GameObject\00. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player.cpp">
+      <Filter>02. GameObject\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Monster.cpp">
+      <Filter>02. GameObject\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Camera.cpp">
+      <Filter>02. GameObject\03. Camera\00. MainCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terrain.cpp">
+      <Filter>02. GameObject\04. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MiniCamera.cpp">
+      <Filter>02. GameObject\03. Camera\01. MiniCamera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
